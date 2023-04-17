@@ -1,0 +1,111 @@
+body {
+    font-family: "Prata";
+    background-image: url("Img/Img-103.png");
+    height: 100%;
+    background-size: 1440px 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.setting-103 {
+    background-image: url("Img/Img-102.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 960px 760px;
+}
+
+.text-101 {
+    font-size: 70px;
+    line-height: 95px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.text-102 {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    font-family: "Work Sans";
+}
+
+.text-103 {
+    font-family: 'Work Sans';
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.text-104 {
+    width: 279px;
+    height: 44px;
+    left: -0.5px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+}
+
+*::placeholder {
+    font-family: 'Work Sans';
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.01em;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.text-105 {
+    background-color: transparent;
+    width: 123px;
+    height: 44px;
+    border: 1px solid #FFFFFF;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.setting-101 {
+    display: none !important;
+}
+
+
+@media (max-width: 767px) {
+
+    body {
+        background-image: url("Img/Img-104.png");
+        background-size: 100vw 100%;
+    }
+
+    .text-101 {
+        font-size: 50px;
+    }
+
+    .text-102 {
+        line-height: 10px;
+    }
+
+    .text-103 {
+        font-size: 16px;
+    }
+
+    .setting-101 {
+        display: block !important;
+    }
+
+    .setting-102 {
+        display: none !important;
+    }
+
+    .text-104 {
+        width: 100%;
+    }
+
+    .text-105 {
+        margin-top: 10px;
+        width: 100%;
+    }
+}
