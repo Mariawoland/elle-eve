@@ -82,6 +82,15 @@ body {
 }
 
 
+@media (max-height: 895px) {
+    
+    body {
+        background-size: 150vh 100%;
+    }
+    
+}
+
+
 @media (max-width: 767px) {
 
     body {
