@@ -73,6 +73,15 @@ body {
 }
 
 
+@media (max-width: 999px) {
+    
+    body {
+        backgrond-size: 100% 140%;
+    }
+    
+}
+
+
 @media (max-width: 767px) {
 
     body {
