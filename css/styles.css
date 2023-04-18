@@ -85,8 +85,8 @@ body {
 @media (min-height: 895px) {
     
     body {
-        background-size: 105% 110vh;
-        background-position: center 0;
+        background-size: 100% 110vh;
+        background-position: top;
     }
     
 }
