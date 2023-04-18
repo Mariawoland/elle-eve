@@ -85,7 +85,7 @@ body {
 @media (max-height: 895px) {
     
     body {
-        background-size: 150vh 100%;
+        background-size: 105% 100vh;
     }
     
 }
